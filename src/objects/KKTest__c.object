@@ -63,6 +63,47 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>ExperPushDown__c</fullName>
+        <externalId>false</externalId>
+        <label>ExperPushDown</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Extra_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Extra User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>KKTests</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>NewestChildAdded__c</fullName>
+        <externalId>false</externalId>
+        <label>NewestChildAdded</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NewestChild__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>NewestChild</label>
+        <referenceTo>KKTestChild__c</referenceTo>
+        <relationshipLabel>KKTests</relationshipLabel>
+        <relationshipName>KKTests</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>SetByProcess__c</fullName>
         <defaultValue>0</defaultValue>
         <externalId>false</externalId>
@@ -97,6 +138,14 @@
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TestAutoNumber__c</fullName>
+        <displayFormat>TN-{0000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>TestAutoNumber</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
     </fields>
     <label>KKTest</label>
     <listViews>

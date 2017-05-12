@@ -11,6 +11,12 @@
         <protected>false</protected>
     </fieldUpdates>
     <rules>
+        <fullName>KKTestEmail</fullName>
+        <active>false</active>
+        <formula>1 = 1</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
         <fullName>KKTestWorkflow</fullName>
         <actions>
             <name>KKTestSetByWorkflow</name>
