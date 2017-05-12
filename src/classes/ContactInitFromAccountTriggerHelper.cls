@@ -36,4 +36,4 @@ public without sharing class ContactInitFromAccountTriggerHelper  extends Trigge
     }
     
     
-} // end of class ContactInitFromAccountTriggerHelper 
+} // end of class ContactInitFromAccountTriggerHelper
